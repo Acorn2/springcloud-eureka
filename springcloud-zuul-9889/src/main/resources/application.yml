@@ -1,0 +1,26 @@
+server:
+  port: 9889
+
+spring:
+  application:
+    name: springcloud-zuul-9889
+
+#Eureka配置
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001:7001/eureka/,http://eureka7002:7002/eureka/,http://eureka7003:7003/eureka/
+  instance:
+    instance-id: zuul9889.com
+    prefer-ip-address: true
+
+#info配置
+info:
+  app.name: hresh-springcloud
+  company.name: blog.csdn.net/Herishwater
+
+zuul:
+  routes:
+    mydept.serviceId: springcloud-provider-dept
+    mydept.path: /mydept/**     #通过指定名称来替代服务名
+  ignored-services: "*"  # 不能再使用这个路径访问了，ignored ： 忽略,隐藏全部的~

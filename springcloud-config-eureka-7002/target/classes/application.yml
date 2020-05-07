@@ -1,0 +1,22 @@
+server:
+  port: 7002
+
+#Eureka配置
+eureka:
+  instance:
+    hostname: eureka7002 #Eureka服务端的实例名称
+    prefer-ip-address: true
+  client:
+    register-with-eureka: false   #表示是否向注册中心注册自己
+    fetch-registry: false   #为false表示自己是注册中心
+    service-url:    #监控页面
+      defaultZone: http://admin:admin@eureka7001:7001/euraka/,http://admin:admin@eureka7003:7003/euraka/
+
+
+spring:
+  application:
+    name: eureka-server
+  security:
+    user:
+      name: admin
+      password: admin

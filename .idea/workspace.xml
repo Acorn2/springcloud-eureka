@@ -1,0 +1,1099 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="98bddd92-e986-4348-ba59-44d243daba12" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/334c502a-4896-47e3-a2c2-830a644ac0c8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-api/src/main/java/com/msdn/pojo/Dept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-api/src/main/java/com/msdn/service/DeptFeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-api/src/main/java/com/msdn/service/DeptServiceFallbackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-api/target/classes/com/msdn/pojo/Dept.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-api/target/classes/com/msdn/service/DeptFeignService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-api/target/classes/com/msdn/service/DeptServiceFallbackFactory$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-api/target/classes/com/msdn/service/DeptServiceFallbackFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-config-eureka-7001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-config-eureka-7001/src/main/java/com/msdn/EurekaServer_7001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-config-eureka-7001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-config-eureka-7001/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-config-eureka-7001/target/classes/com/msdn/EurekaServer_7001.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-config-eureka-7002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-config-eureka-7002/springcloud-config-eureka-7002.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-config-eureka-7002/src/main/java/com/msdn/EurekaServer_7002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-config-eureka-7002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-config-eureka-7002/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-config-eureka-7002/target/classes/com/msdn/EurekaServer_7002.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-config-eureka-7003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-config-eureka-7003/src/main/java/com/msdn/EurekaServer_7003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-config-eureka-7003/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-config-eureka-7003/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-config-eureka-7003/target/classes/com/msdn/EurekaServer_7003.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80-feign/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80-feign/src/main/java/com/msdn/FeignDeptConsumer_80.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80-feign/src/main/java/com/msdn/config/MyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80-feign/src/main/java/com/msdn/controller/DeptConsumerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80-feign/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80-feign/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80-feign/target/classes/com/msdn/FeignDeptConsumer_80.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80-feign/target/classes/com/msdn/config/MyConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80-feign/target/classes/com/msdn/controller/DeptConsumerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80-syn/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80-syn/src/main/java/com/msdn/DeptConsumerSyn_80.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80-syn/src/main/java/com/msdn/config/MyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80-syn/src/main/java/com/msdn/controller/DeptConsumerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80-syn/src/main/java/com/msdn/service/DeptConsumerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80-syn/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80-syn/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80-syn/target/classes/com/msdn/DeptConsumerSyn_80.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80-syn/target/classes/com/msdn/config/MyConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80-syn/target/classes/com/msdn/controller/DeptConsumerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80-syn/target/classes/com/msdn/service/DeptConsumerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/springcloud-consumer-dept-80.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/msdn/DeptConsumer_80.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/msdn/config/MyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/msdn/controller/DeptConsumerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/myrule/MyRandomRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/myrule/RuleConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/target/classes/META-INF/springcloud-consumer-dept-80.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/target/classes/com/msdn/DeptConsumer_80.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/target/classes/com/msdn/config/MyConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/target/classes/com/msdn/controller/DeptConsumerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/target/classes/com/myrule/MyRandomRule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/target/classes/com/myrule/RuleConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard/src/main/java/com/msdn/DeptConsumerDashboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard/target/classes/com/msdn/DeptConsumerDashboard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-eureka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/src/main/java/com/msdn/DeptProvider_8001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/src/main/java/com/msdn/config/ServletConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/src/main/java/com/msdn/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/src/main/java/com/msdn/mapper/DeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/src/main/java/com/msdn/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/src/main/java/com/msdn/service/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/target/classes/com/msdn/DeptProvider_8001.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/target/classes/com/msdn/config/ServletConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/target/classes/com/msdn/controller/DeptController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/target/classes/com/msdn/mapper/DeptMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/target/classes/com/msdn/service/DeptService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/target/classes/com/msdn/service/DeptServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/target/classes/mybatis/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8002/src/main/java/com/msdn/DeptProvider_8002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8002/src/main/java/com/msdn/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8002/src/main/java/com/msdn/mapper/DeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8002/src/main/java/com/msdn/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8002/src/main/java/com/msdn/service/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8002/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8002/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8002/target/classes/com/msdn/DeptProvider_8002.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8002/target/classes/com/msdn/controller/DeptController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8002/target/classes/com/msdn/mapper/DeptMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8002/target/classes/com/msdn/service/DeptService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8002/target/classes/com/msdn/service/DeptServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8002/target/classes/mybatis/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8003/src/main/java/com/msdn/DeptProvider_8003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8003/src/main/java/com/msdn/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8003/src/main/java/com/msdn/mapper/DeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8003/src/main/java/com/msdn/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8003/src/main/java/com/msdn/service/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8003/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8003/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8003/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8003/target/classes/com/msdn/DeptProvider_8003.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8003/target/classes/com/msdn/controller/DeptController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8003/target/classes/com/msdn/mapper/DeptMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8003/target/classes/com/msdn/service/DeptService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8003/target/classes/com/msdn/service/DeptServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8003/target/classes/mybatis/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-dgrade-8001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-dgrade-8001/src/main/java/com/msdn/DeptProviderDownGrade_8001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-dgrade-8001/src/main/java/com/msdn/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-dgrade-8001/src/main/java/com/msdn/mapper/DeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-dgrade-8001/src/main/java/com/msdn/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-dgrade-8001/src/main/java/com/msdn/service/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-dgrade-8001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-dgrade-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-dgrade-8001/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-dgrade-8001/target/classes/com/msdn/DeptProviderDownGrade_8001.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-dgrade-8001/target/classes/com/msdn/controller/DeptController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-dgrade-8001/target/classes/com/msdn/mapper/DeptMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-dgrade-8001/target/classes/com/msdn/service/DeptService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-dgrade-8001/target/classes/com/msdn/service/DeptServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-dgrade-8001/target/classes/mybatis/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/msdn/DeptProviderHystrix_8001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/msdn/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/msdn/mapper/DeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/msdn/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/msdn/service/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/target/classes/com/msdn/DeptProviderHystrix_8001.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/target/classes/com/msdn/controller/DeptController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/target/classes/com/msdn/mapper/DeptMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/target/classes/com/msdn/service/DeptService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/target/classes/com/msdn/service/DeptServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/target/classes/mybatis/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-threadpool-8001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-threadpool-8001/src/main/java/com/msdn/DeptProviderThreadPool_8001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-threadpool-8001/src/main/java/com/msdn/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-threadpool-8001/src/main/java/com/msdn/mapper/DeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-threadpool-8001/src/main/java/com/msdn/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-threadpool-8001/src/main/java/com/msdn/service/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-threadpool-8001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-threadpool-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-threadpool-8001/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-threadpool-8001/target/classes/com/msdn/DeptProviderThreadPool_8001.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-threadpool-8001/target/classes/com/msdn/controller/DeptController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-threadpool-8001/target/classes/com/msdn/mapper/DeptMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-threadpool-8001/target/classes/com/msdn/service/DeptService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-threadpool-8001/target/classes/com/msdn/service/DeptServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-threadpool-8001/target/classes/mybatis/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-zuul-9889/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-zuul-9889/src/main/java/com/msdn/Zuul9889.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-zuul-9889/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-zuul-9889/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-zuul-9889/target/classes/com/msdn/Zuul9889.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-config-eureka-7001/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-config-eureka-7002/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-config-eureka-7003/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-api/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-provider-dept-8001/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-provider-dept-8002/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-consumer-dept-80/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-provider-dept-8003/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-consumer-dept-80-feign/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-provider-dept-threadpool-8001/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-provider-dept-dgrade-8001/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-consumer-dept-80-syn/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-zuul-9889/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="springcloud@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="springcloud@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-consumer-dept-80-feign/src/main/java/com/msdn/FeignDeptConsumer_80.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springcloud-zuul-9889/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-zuul-9889/src/main/java/com/msdn/Zuul9889.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-zuul-9889/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>CIRCUIT_BREAKER_REQUEST_VOLUME_THRESHOLD</find>
+      <find>DeptConsumerController</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/myrule/RandomRule.java" />
+        <option value="$PROJECT_DIR$/springcloud-api/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-dept-80-feign/src/main/java/com/msdn/controller/DeptConsumerController.java" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-dept-80-feign/src/main/java/com/msdn/config/MyConfig.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/msdn/DeptProvider_8001.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/msdn/service/DeptServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/msdn/controller/DeptController.java" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/myrule/MyRandomRule.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider-dept-threadpool-8001/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/myrule/RuleConfig.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider-dept-threadpool-8001/src/main/java/com/msdn/DeptProvider_8001.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider-dept-8001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-provider-dept-threadpool-8001/src/main/java/com/msdn/service/DeptServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider-dept-threadpool-8001/src/main/java/com/msdn/controller/DeptController.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider-dept-dgrade-8001/src/main/java/com/msdn/DeptServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider-dept-dgrade-8001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-provider-dept-threadpool-8001/src/main/java/com/msdn/DeptProviderThreadPool_8001.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider-dept-dgrade-8001/src/main/java/com/msdn/DeptProviderThreadPool_8001.java" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-dept-80/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/msdn/controller/DeptConsumerController.java" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/msdn/DeptConsumer_80.java" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-dept-80-syn/src/main/java/com/msdn/DeptConsumer_80.java" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-dept-80-syn/src/main/java/com/msdn/DeptConsumerSyn_80.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider-dept-dgrade-8001/src/main/java/com/msdn/service/DeptService.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider-dept-dgrade-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" />
+        <option value="$PROJECT_DIR$/springcloud-provider-dept-dgrade-8001/src/main/java/com/msdn/mapper/DeptMapper.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider-dept-dgrade-8001/src/main/java/com/msdn/controller/DeptController.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider-dept-dgrade-8001/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-provider-dept-dgrade-8001/src/main/java/com/msdn/service/DeptServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-dept-80-syn/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-dept-80-syn/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-dept-80-syn/src/main/java/com/msdn/config/MyConfig.java" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-dept-80-syn/src/main/java/com/msdn/service/DeptConsumerService.java" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-dept-80-syn/src/main/java/com/msdn/controller/DeptConsumerController.java" />
+        <option value="$PROJECT_DIR$/springcloud-api/src/main/java/com/msdn/service/DeptFeignService.java" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-dept-80-feign/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-dept-80-feign/src/main/java/com/msdn/FeignDeptConsumer_80.java" />
+        <option value="$PROJECT_DIR$/springcloud-api/src/main/java/com/msdn/service/DeptServiceFallbackFactory.java" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-dept-80-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-provider-dept-8001/src/main/java/com/msdn/controller/DeptController.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider-dept-8001/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-provider-dept-8001/src/main/java/com/msdn/DeptProvider_8001.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider-dept-8001/src/main/java/com/msdn/config/ServletConfig.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/msdn/DeptProviderHystrix_8001.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard/src/main/java/com/msdn/DeptConsumerDashboard.java" />
+        <option value="$PROJECT_DIR$/springcloud-zuul-9889/src/main/java/com/msdn/Zuul9889.java" />
+        <option value="$PROJECT_DIR$/springcloud-zuul-9889/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-zuul-9889/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Java_About\Java_component\apache-maven-3.5.0\sts-maven" />
+        <option name="mavenHome" value="D:/Java_About/Java_component/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="D:\Java_About\Java_component\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="952" />
+    <option name="y" value="-8" />
+    <option name="width" value="976" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springcloud-eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-eureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.msdn" />
+      <recent name="com.msdn.config" />
+      <recent name="com.msdn.controller" />
+      <recent name="com.msdn.mapper" />
+      <recent name="com.msdn.pojo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\workspace\Kuangshen_Learn\springcloud-eureka\springcloud-consumer-dept-80-syn\src\main\resources" />
+      <recent name="F:\workspace\Kuangshen_Learn\springcloud-eureka\springcloud-provider-dept-dgrade-8001\src\main\java\com\msdn" />
+      <recent name="F:\workspace\Kuangshen_Learn\springcloud-eureka\springcloud-provider-dept-dgrade-8001\src\main\resources" />
+      <recent name="F:\workspace\Kuangshen_Learn\springcloud-eureka\springcloud-provider-dept-threadpool-8001\src\main\resources" />
+      <recent name="F:\workspace\Kuangshen_Learn\springcloud-eureka\springcloud-provider-dept-threadpool-8001\src\main\java\com\msdn" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.19209957" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.Zuul9889">
+    <configuration name="DeptConsumerDashboard" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud-consumer-hystrix-dashboard" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.msdn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.msdn.DeptConsumerDashboard" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeptProviderHystrix_8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud-provider-dept-hystrix-8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.msdn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.msdn.DeptProviderHystrix_8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeptProvider_8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud-provider-dept-8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.msdn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.msdn.DeptProvider_8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer_7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud-config-eureka-7001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.msdn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.msdn.EurekaServer_7001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Zuul9889" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud-zuul-9889" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.msdn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.msdn.Zuul9889" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Zuul9889" />
+        <item itemvalue="Spring Boot.DeptProvider_8001" />
+        <item itemvalue="Spring Boot.EurekaServer_7001" />
+        <item itemvalue="Spring Boot.DeptProviderHystrix_8001" />
+        <item itemvalue="Spring Boot.DeptConsumerDashboard" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98bddd92-e986-4348-ba59-44d243daba12" name="Default Changelist" comment="" />
+      <created>1588146930218</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588146930218</updated>
+      <workItem from="1588146933495" duration="15781000" />
+      <workItem from="1588207328538" duration="12092000" />
+      <workItem from="1588234312902" duration="6350000" />
+      <workItem from="1588297921624" duration="10278000" />
+      <workItem from="1588384508603" duration="4446000" />
+      <workItem from="1588470355294" duration="7876000" />
+      <workItem from="1588556233492" duration="14898000" />
+      <workItem from="1588642978252" duration="21747000" />
+      <workItem from="1588725652031" duration="7626000" />
+      <workItem from="1588767116936" duration="5295000" />
+      <workItem from="1588813545238" duration="1629000" />
+      <workItem from="1588831097872" duration="5020000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="DeptConsumerSyn_80_test - 2020.05.05 at 10h 24m 49s.xml">
+      <configuration name="DeptConsumerSyn_80.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="113038000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20735608" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34994584" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.36767897" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="PlantUML" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.21801706" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>dept1.get()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/springcloud-api/src/main/java/com/msdn/pojo/Dept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-8001/src/main/java/com/msdn/service/DeptServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer-dept-80-syn/target/classes/com/msdn/service/DeptConsumerService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1537#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer-dept-80-syn/target/classes/com/msdn/controller/DeptConsumerController.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <folding>
+            <element signature="e#0#2466#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.2.0/rxjava-1.2.0.jar!/rx/exceptions/OnErrorThrowable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="56" column="9" lean-forward="true" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="229" column="13" lean-forward="true" selection-start-line="229" selection-start-column="13" selection-end-line="229" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-dgrade-8001/src/main/java/com/msdn/DeptProviderDownGrade_8001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18.jar!/com/netflix/hystrix/contrib/javanica/command/MethodExecutionAction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-dgrade-8001/src/main/java/com/msdn/mapper/DeptMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-dgrade-8001/src/main/java/com/msdn/service/DeptService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="12" selection-start-line="12" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-dgrade-8001/src/main/java/com/msdn/service/DeptServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1839#1840#0" expanded="true" />
+            <element signature="e#1883#1884#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+            <element signature="e#1061#1062#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer-dept-80-syn/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer-dept-80-syn/src/main/java/com/msdn/config/MyConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-dgrade-8001/src/main/resources/mybatis/mapper/DeptMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-threadpool-8001/src/main/java/com/msdn/service/DeptServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
+          <folding>
+            <element signature="e#1288#1289#0" expanded="true" />
+            <element signature="e#1335#1336#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-threadpool-8001/src/main/java/com/msdn/service/DeptService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-threadpool-8001/src/main/java/com/msdn/controller/DeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer-dept-80-syn/src/main/java/com/msdn/controller/DeptConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-dgrade-8001/src/main/java/com/msdn/controller/DeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer-dept-80-syn/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer-dept-80-syn/src/main/java/com/msdn/service/DeptConsumerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1395#1396#0" expanded="true" />
+            <element signature="e#1422#1423#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-dgrade-8001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="12" selection-start-line="12" selection-end-line="77" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer-dept-80-syn/src/main/java/com/msdn/DeptConsumerSyn_80.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-threadpool-8001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="86" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-8002/src/main/java/com/msdn/DeptProvider_8002.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-threadpool-8001/src/main/java/com/msdn/DeptProviderThreadPool_8001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="18" selection-start-line="18" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer-dept-80-feign/src/main/java/com/msdn/controller/DeptConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer-dept-80-feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-8001/src/main/java/com/msdn/controller/DeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="35" column="49" lean-forward="true" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer-dept-80-feign/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="9" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-api/src/main/java/com/msdn/service/DeptServiceFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-api/src/main/java/com/msdn/service/DeptFeignService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="17" selection-start-line="17" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-8001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-8001/src/main/java/com/msdn/DeptProvider_8001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-8001/src/main/java/com/msdn/config/ServletConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard/src/main/java/com/msdn/DeptConsumerDashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-141">
+          <caret selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/msdn/controller/DeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="13" selection-start-line="13" selection-end-line="83" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-config-eureka-7001/src/main/java/com/msdn/EurekaServer_7001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/msdn/DeptProviderHystrix_8001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-8001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator-autoconfigure/2.1.4.RELEASE/spring-boot-actuator-autoconfigure-2.1.4.RELEASE.jar!/org/springframework/boot/actuate/autoconfigure/endpoint/web/ServletEndpointManagementContextConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-303">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer-dept-80-feign/src/main/java/com/msdn/FeignDeptConsumer_80.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-zuul-9889/src/main/java/com/msdn/Zuul9889.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-zuul-9889/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-zuul-9889/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>springcloud-consumer-hystrix-dashboard</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
